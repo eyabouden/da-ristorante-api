@@ -3,5 +3,11 @@
     "version": "v1.3",
     "name": "Declarative agent",
     "description": "Declarative agent created with Teams Toolkit",
-    "instructions": "$[file('instruction.txt')]"
+    "instructions": "$[file('instruction.txt')]",
+    "actions": [
+        {
+            "id": "menuPlugin",
+            "file": "ai-plugin.json"
+        }
+    ]
 }
